@@ -1,0 +1,69 @@
+# Load structure 
+# load "file_URL", complex
+load "C:\Users\Gautam Sah\Downloads\HDOCK-20260320T121546Z-3-001\HDOCK\PDB structure HDOCK\3KDE_Docked.pdb", complex
+
+#  Selections (universal) 
+select prot, polymer.protein
+select dna, polymer.nucleic
+select prot_interface, byres (prot within 3.5 of dna)
+select dna_interface, byres (dna within 3.5 of prot)
+
+#  Show interface 
+show sticks, prot_interface
+color salmon, prot_interface
+show sticks, dna_interface
+color slate, dna_interface
+
+dist contacts, prot_interface, dna_interface, 3.5
+#color grey, contacts
+hide labels, contacts
+
+#  Show H-bonds and contacts 
+dist hbonds, prot_interface, dna_interface, 3.5
+color yellow, hbonds
+hide labels, hbonds
+
+
+set dash_width, 0.75
+set dash_gap, 0.15
+
+#  One-letter dictionaries 
+python
+aa_1letter = {
+    'ALA':'A','ARG':'R','ASN':'N','ASP':'D','CYS':'C',
+    'GLN':'Q','GLU':'E','GLY':'G','HIS':'H','ILE':'I',
+    'LEU':'L','LYS':'K','MET':'M','PHE':'F','PRO':'P',
+    'SER':'S','THR':'T','TRP':'W','TYR':'Y','VAL':'V'
+}
+dna_1letter = {
+    'DA':'A','A':'A','ADE':'A',
+    'DT':'T','T':'T','THY':'T',
+    'DG':'G','G':'G','GUA':'G',
+    'DC':'C','C':'C','CYT':'C'
+}
+python end
+
+#  Labels (one-letter + number) 
+label prot_interface and name CA, "%s%s" % (aa_1letter.get(resn, '?'), resi)
+label dna_interface and name P,  "%s%s" % (dna_1letter.get(resn, '?'), resi)
+
+set label_size, 42
+set label_color, white
+bg_color black 
+
+iterate prot_interface and name CA, print("PROT:", chain, resn, resi)
+iterate dna_interface and name P, print("DNA:", chain, resn, resi)
+
+
+
+# ----------------------------------------------------------------
+
+#  High-quality image export 
+ray 3000, 3000  # Renders at 3000x3000 px, can adjust resolution
+png "C:\Users\Gautam Sah\OneDrive\Desktop\DNA-Protein Docking\Results_Visualization_&_Table\Alphafold\1.THAP1 Lonchura\protein_dna_interface.png", dpi=300
+
+
+# cmd.ray(X-AXIS, Y-AXIS) -> File url done !
+cmd.ray(4500,3000)
+cmd.png(r"C:\Users\Gautam Sah\Downloads\3KBT.PNG", dpi=500)
+

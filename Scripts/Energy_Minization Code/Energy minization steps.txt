@@ -1,0 +1,98 @@
+============================
+Energy Minimization Commands
+============================
+
+Step1: Setup, Installation and Parameter files
+1.A. Installation of Gromacs
+sudo apt update
+sudo apt upgrade
+sudo apt install gcc
+sudo apt install cmake
+sudo apt install build-essential
+sudo apt install libfftw3-dev OR
+sudo apt-get install -y libfftw3-dev
+
+1.A.a Download Gromacs from : 					
+https://manual.gromacs.org/current/download.html#		
+									
+1.A.b CUDA TOOLKIT:
+https://developer.nvidia.com/cuda-downloads			
+Following the steps and copy the commands				
+
+1.A.c Gromacs Compilation Process
+tar xfz gromacs-2020.2.tar.gz					
+cd gromacs-2020.2						
+mkdir build						
+cd build							
+cmake .. -DGMX_GPU=CUDA -DCUDA_TOOLKIT_ROOT_DIR=/usr/local/cuda
+make							
+make check						
+sudo make install						
+source /usr/local/gromacs/bin/GMXRC				
+
+1.A.d Resources
+https://manual.gromacs.org/current/reference-manual/algorithms/energy-minimization.html
+http://www.mdtutorials.com/gmx/
+
+
+1.B. Parameter files for Energy minization (EM and ION   *.mdp file).
+PreRequisites for energy minimization. 
+a. EM_Parameter.mdp
+b. ions_Parameter.mdp
+c. Alphafold_predicted_file_to_be_Energy_minized.PDB
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+These are the steps for energy minization of sinlge protein only. Not for as protein with ligand energy minization for study of Protein-ligand stability.
+Actual Energy minization steps:
+
+
+
+Step2: Generate topology
+gmx pdb2gmx -f THAP1Lonchura09_03_1b67d_relaxed_rank_001_alphafold2_ptm_model_4_seed_000.pdb  -ignh
+-> 8(charmm27) -> 1(TIP3P)
+
+
+3. Define the simulation box
+gmx editconf -f conf.gro  -d 1.0 -bt triclinic -o box.gro
+
+
+4. Solvate the system
+gmx solvate -cp box.gro -cs spc216.gro -p topol.top -o box_sol.gro
+
+
+5. Prepare system for ion addition
+gmx grompp -f ions.mdp -c box_sol.gro -p topol.top -o ION.tpr
+
+
+6. Neutralize the system
+gmx genion -s ION.tpr -p topol.top -conc 0.1 -neutral -o box_sol_ion.gro
+-> 13 (SOL)
+
+
+7. Prepare energy minimization
+gmx grompp -f EM.mdp -c box_sol_ion.gro -p topol.top -o EM.tpr
+
+
+8. Run energy minimization
+gmx mdrun -v -deffnm EM
+
+
+9. Final PDB conversion 
+gmx editconf -f EM.gro -o EM_minimized.pdb
+
+
+10. Saving PDB only without water molecules and ions -> Because after energy minization the size of the pdb increases due to those water and ion molecules -> And large sized PDB files are not accepted on those docking webserver.
+gmx trjconv -s EM.tpr -f EM.gro -n index.ndx -o protein_only.pdb
+-> 1 (select protein)
+
+
+
+
+
+
+
+
+
+
