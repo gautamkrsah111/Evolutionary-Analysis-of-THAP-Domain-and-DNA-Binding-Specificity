@@ -1,0 +1,17 @@
+Welcome to Ram Plot
+===================
+log
+Job Id:RamPlot69b2bbeb3d739
+User Inputs 
+Input Option: optionFile
+Plot Resolutions: 600
+Plot File Type: svg
+File Upload Successfully Thap11Balaenopetraproteinonly.pdb
+ python3 Script Start running for Torsion Angle Calculation
+InSIde TorsionAngleCalculation 
+ RamPlot69b2bbeb3d739
+[MapType2DStd,MapType3DStd,MapType2DAll]Thap11Balaenopetraproteinonly.pdb
+Calculate Torsion angles for Chain ID : 
+Error : Unable to calculate  torsion angles Thap11Balaenopetraproteinonly.pdb Chain  Residue 1 MET PHI:None PSI:123.70928371012624 Omega:None
+Error : Unable to calculate  torsion angles Thap11Balaenopetraproteinonly.pdb Chain  Residue 175 PHE PHI:-117.35237978001545 PSI:None Omega:177.00239512584142
+Torsion Angles calculation complited for Thap11Balaenopetraproteinonly.pdb

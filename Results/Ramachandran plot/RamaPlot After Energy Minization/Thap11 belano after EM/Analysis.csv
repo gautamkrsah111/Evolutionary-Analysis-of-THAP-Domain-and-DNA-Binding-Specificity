@@ -1,0 +1,84 @@
+Ram Plot Analysis
+JobID,RamPlot69b2bbeb3d739,2026-03-12 18:43:16.833919
+Total Residue,173
+Ramachandran plot (Standard) statistics
+Favoured: ,126,(72.832%)
+Allowed: ,28,(16.185%)
+Disallowed: ,19,(10.983%)
+Disallowed Residues
+SN.,PDB ID,Chain,Residue,Residue No,PHI,PSI
+1. ,Thap11Balaenopetraproteinonly, ,GLN,2,26.87,104.05
+2. ,Thap11Balaenopetraproteinonly, ,SER,3,179.51,103.82
+3. ,Thap11Balaenopetraproteinonly, ,THR,4,-5.7,136.39
+4. ,Thap11Balaenopetraproteinonly, ,HIS,5,132.91,137.17
+5. ,Thap11Balaenopetraproteinonly, ,LYS,6,114.04,89.63
+6. ,Thap11Balaenopetraproteinonly, ,ALA,7,69.43,114.91
+7. ,Thap11Balaenopetraproteinonly, ,LEU,8,79.77,127.67
+8. ,Thap11Balaenopetraproteinonly, ,TYR,11,106.99,77.54
+9. ,Thap11Balaenopetraproteinonly, ,THR,12,53.52,140.55
+10. ,Thap11Balaenopetraproteinonly, ,MET,13,120.81,79.16
+11. ,Thap11Balaenopetraproteinonly, ,ALA,25,-22.08,133.77
+12. ,Thap11Balaenopetraproteinonly, ,GLY,35,-28.64,141.79
+13. ,Thap11Balaenopetraproteinonly, ,GLY,36,178.23,85.01
+14. ,Thap11Balaenopetraproteinonly, ,LYS,79,-15.16,119.81
+15. ,Thap11Balaenopetraproteinonly, ,ALA,80,62.33,110.14
+16. ,Thap11Balaenopetraproteinonly, ,GLN,81,115.01,91.37
+17. ,Thap11Balaenopetraproteinonly, ,GLY,85,142.88,83.56
+18. ,Thap11Balaenopetraproteinonly, ,ALA,94,66.67,102.18
+19. ,Thap11Balaenopetraproteinonly, ,GLY,139,-19.94,113.98
+Ramachandran plot (six categories) statistics
+Favoured: ,121,(69.942%)
+Allowed: ,30,(17.341%)
+Disallowed: ,22,(12.717%)
+Disallowed Residues
+SN.,PDB ID,Chain,Residue,Residue No,PHI,PSI
+1. ,Thap11Balaenopetraproteinonly, ,GLN,2,26.87,104.05
+2. ,Thap11Balaenopetraproteinonly, ,SER,3,179.51,103.82
+3. ,Thap11Balaenopetraproteinonly, ,THR,4,-5.7,136.39
+4. ,Thap11Balaenopetraproteinonly, ,HIS,5,132.91,137.17
+5. ,Thap11Balaenopetraproteinonly, ,LYS,6,114.04,89.63
+6. ,Thap11Balaenopetraproteinonly, ,ALA,7,69.43,114.91
+7. ,Thap11Balaenopetraproteinonly, ,LEU,8,79.77,127.67
+8. ,Thap11Balaenopetraproteinonly, ,LEU,9,-168.0,-145.09
+9. ,Thap11Balaenopetraproteinonly, ,PRO,10,-151.09,-135.17
+10. ,Thap11Balaenopetraproteinonly, ,TYR,11,106.99,77.54
+11. ,Thap11Balaenopetraproteinonly, ,THR,12,53.52,140.55
+12. ,Thap11Balaenopetraproteinonly, ,MET,13,120.81,79.16
+13. ,Thap11Balaenopetraproteinonly, ,ALA,25,-22.08,133.77
+14. ,Thap11Balaenopetraproteinonly, ,PRO,33,-130.47,100.51
+15. ,Thap11Balaenopetraproteinonly, ,GLY,35,-28.64,141.79
+16. ,Thap11Balaenopetraproteinonly, ,GLY,36,178.23,85.01
+17. ,Thap11Balaenopetraproteinonly, ,LYS,79,-15.16,119.81
+18. ,Thap11Balaenopetraproteinonly, ,ALA,80,62.33,110.14
+19. ,Thap11Balaenopetraproteinonly, ,GLN,81,115.01,91.37
+20. ,Thap11Balaenopetraproteinonly, ,GLY,85,142.88,83.56
+21. ,Thap11Balaenopetraproteinonly, ,ALA,94,66.67,102.18
+22. ,Thap11Balaenopetraproteinonly, ,GLY,139,-19.94,113.98
+Ramachandran plot (Seven categories) statistics
+Favoured: ,121,(69.942%)
+Allowed: ,30,(17.341%)
+Disallowed: ,22,(12.717%)
+Disallowed Residues
+SN.,PDB ID,Chain,Residue,Residue No,PHI,PSI
+1. ,Thap11Balaenopetraproteinonly, ,GLN,2,26.87,104.05
+2. ,Thap11Balaenopetraproteinonly, ,SER,3,179.51,103.82
+3. ,Thap11Balaenopetraproteinonly, ,THR,4,-5.7,136.39
+4. ,Thap11Balaenopetraproteinonly, ,HIS,5,132.91,137.17
+5. ,Thap11Balaenopetraproteinonly, ,LYS,6,114.04,89.63
+6. ,Thap11Balaenopetraproteinonly, ,ALA,7,69.43,114.91
+7. ,Thap11Balaenopetraproteinonly, ,LEU,8,79.77,127.67
+8. ,Thap11Balaenopetraproteinonly, ,LEU,9,-168.0,-145.09
+9. ,Thap11Balaenopetraproteinonly, ,PRO,10,-151.09,-135.17
+10. ,Thap11Balaenopetraproteinonly, ,TYR,11,106.99,77.54
+11. ,Thap11Balaenopetraproteinonly, ,THR,12,53.52,140.55
+12. ,Thap11Balaenopetraproteinonly, ,MET,13,120.81,79.16
+13. ,Thap11Balaenopetraproteinonly, ,ALA,25,-22.08,133.77
+14. ,Thap11Balaenopetraproteinonly, ,PRO,33,-130.47,100.51
+15. ,Thap11Balaenopetraproteinonly, ,GLY,35,-28.64,141.79
+16. ,Thap11Balaenopetraproteinonly, ,GLY,36,178.23,85.01
+17. ,Thap11Balaenopetraproteinonly, ,LYS,79,-15.16,119.81
+18. ,Thap11Balaenopetraproteinonly, ,ALA,80,62.33,110.14
+19. ,Thap11Balaenopetraproteinonly, ,GLN,81,115.01,91.37
+20. ,Thap11Balaenopetraproteinonly, ,GLY,85,142.88,83.56
+21. ,Thap11Balaenopetraproteinonly, ,ALA,94,66.67,102.18
+22. ,Thap11Balaenopetraproteinonly, ,GLY,139,-19.94,113.98

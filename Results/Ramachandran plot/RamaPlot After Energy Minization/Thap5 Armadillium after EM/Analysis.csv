@@ -1,0 +1,27 @@
+Ram Plot Analysis
+JobID,RamPlot69b2bb80557a5,2026-03-12 18:41:29.584435
+Total Residue,44
+Ramachandran plot (Standard) statistics
+Favoured: ,38,(86.364%)
+Allowed: ,4,(9.091%)
+Disallowed: ,2,(4.545%)
+Disallowed Residues
+SN.,PDB ID,Chain,Residue,Residue No,PHI,PSI
+1. ,Thap5Armadilldiumproteinonly, ,LYS,4,-62.69,90.92
+2. ,Thap5Armadilldiumproteinonly, ,TRP,6,-31.12,106.22
+Ramachandran plot (six categories) statistics
+Favoured: ,37,(84.091%)
+Allowed: ,5,(11.364%)
+Disallowed: ,2,(4.545%)
+Disallowed Residues
+SN.,PDB ID,Chain,Residue,Residue No,PHI,PSI
+1. ,Thap5Armadilldiumproteinonly, ,LYS,4,-62.69,90.92
+2. ,Thap5Armadilldiumproteinonly, ,TRP,6,-31.12,106.22
+Ramachandran plot (Seven categories) statistics
+Favoured: ,37,(84.091%)
+Allowed: ,5,(11.364%)
+Disallowed: ,2,(4.545%)
+Disallowed Residues
+SN.,PDB ID,Chain,Residue,Residue No,PHI,PSI
+1. ,Thap5Armadilldiumproteinonly, ,LYS,4,-62.69,90.92
+2. ,Thap5Armadilldiumproteinonly, ,TRP,6,-31.12,106.22

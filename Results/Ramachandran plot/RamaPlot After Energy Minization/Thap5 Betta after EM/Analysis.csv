@@ -1,0 +1,74 @@
+Ram Plot Analysis
+JobID,RamPlot69b2ba9902ca3,2026-03-12 18:37:38.708788
+Total Residue,214
+Ramachandran plot (Standard) statistics
+Favoured: ,171,(79.907%)
+Allowed: ,30,(14.019%)
+Disallowed: ,13,(6.075%)
+Disallowed Residues
+SN.,PDB ID,Chain,Residue,Residue No,PHI,PSI
+1. ,thap5Bettaproteinonly, ,TYR,12,165.75,38.21
+2. ,thap5Bettaproteinonly, ,ALA,25,163.35,96.42
+3. ,thap5Bettaproteinonly, ,GLY,35,179.59,-35.23
+4. ,thap5Bettaproteinonly, ,THR,63,172.29,119.41
+5. ,thap5Bettaproteinonly, ,SER,65,41.33,123.1
+6. ,thap5Bettaproteinonly, ,SER,112,169.66,90.62
+7. ,thap5Bettaproteinonly, ,GLN,113,53.97,140.01
+8. ,thap5Bettaproteinonly, ,GLN,114,160.9,107.25
+9. ,thap5Bettaproteinonly, ,GLN,116,105.35,90.09
+10. ,thap5Bettaproteinonly, ,THR,125,-9.06,132.96
+11. ,thap5Bettaproteinonly, ,THR,132,143.06,91.49
+12. ,thap5Bettaproteinonly, ,VAL,141,-27.48,131.52
+13. ,thap5Bettaproteinonly, ,SER,149,150.47,43.61
+Ramachandran plot (six categories) statistics
+Favoured: ,163,(76.168%)
+Allowed: ,31,(14.486%)
+Disallowed: ,20,(9.346%)
+Disallowed Residues
+SN.,PDB ID,Chain,Residue,Residue No,PHI,PSI
+1. ,thap5Bettaproteinonly, ,PRO,4,-117.39,137.03
+2. ,thap5Bettaproteinonly, ,PRO,7,-106.73,90.36
+3. ,thap5Bettaproteinonly, ,TYR,12,165.75,38.21
+4. ,thap5Bettaproteinonly, ,ALA,25,163.35,96.42
+5. ,thap5Bettaproteinonly, ,PRO,30,-108.94,-176.07
+6. ,thap5Bettaproteinonly, ,PRO,31,-141.58,109.41
+7. ,thap5Bettaproteinonly, ,GLY,35,179.59,-35.23
+8. ,thap5Bettaproteinonly, ,PRO,61,-100.37,81.04
+9. ,thap5Bettaproteinonly, ,THR,63,172.29,119.41
+10. ,thap5Bettaproteinonly, ,SER,65,41.33,123.1
+11. ,thap5Bettaproteinonly, ,VAL,109,-157.42,87.23
+12. ,thap5Bettaproteinonly, ,SER,112,169.66,90.62
+13. ,thap5Bettaproteinonly, ,GLN,113,53.97,140.01
+14. ,thap5Bettaproteinonly, ,GLN,114,160.9,107.25
+15. ,thap5Bettaproteinonly, ,GLN,116,105.35,90.09
+16. ,thap5Bettaproteinonly, ,THR,125,-9.06,132.96
+17. ,thap5Bettaproteinonly, ,PRO,128,-121.0,171.47
+18. ,thap5Bettaproteinonly, ,THR,132,143.06,91.49
+19. ,thap5Bettaproteinonly, ,VAL,141,-27.48,131.52
+20. ,thap5Bettaproteinonly, ,SER,149,150.47,43.61
+Ramachandran plot (Seven categories) statistics
+Favoured: ,163,(76.168%)
+Allowed: ,31,(14.486%)
+Disallowed: ,20,(9.346%)
+Disallowed Residues
+SN.,PDB ID,Chain,Residue,Residue No,PHI,PSI
+1. ,thap5Bettaproteinonly, ,PRO,4,-117.39,137.03
+2. ,thap5Bettaproteinonly, ,PRO,7,-106.73,90.36
+3. ,thap5Bettaproteinonly, ,TYR,12,165.75,38.21
+4. ,thap5Bettaproteinonly, ,ALA,25,163.35,96.42
+5. ,thap5Bettaproteinonly, ,PRO,30,-108.94,-176.07
+6. ,thap5Bettaproteinonly, ,PRO,31,-141.58,109.41
+7. ,thap5Bettaproteinonly, ,GLY,35,179.59,-35.23
+8. ,thap5Bettaproteinonly, ,PRO,61,-100.37,81.04
+9. ,thap5Bettaproteinonly, ,THR,63,172.29,119.41
+10. ,thap5Bettaproteinonly, ,SER,65,41.33,123.1
+11. ,thap5Bettaproteinonly, ,VAL,109,-157.42,87.23
+12. ,thap5Bettaproteinonly, ,SER,112,169.66,90.62
+13. ,thap5Bettaproteinonly, ,GLN,113,53.97,140.01
+14. ,thap5Bettaproteinonly, ,GLN,114,160.9,107.25
+15. ,thap5Bettaproteinonly, ,GLN,116,105.35,90.09
+16. ,thap5Bettaproteinonly, ,THR,125,-9.06,132.96
+17. ,thap5Bettaproteinonly, ,PRO,128,-121.0,171.47
+18. ,thap5Bettaproteinonly, ,THR,132,143.06,91.49
+19. ,thap5Bettaproteinonly, ,VAL,141,-27.48,131.52
+20. ,thap5Bettaproteinonly, ,SER,149,150.47,43.61

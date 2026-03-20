@@ -1,0 +1,64 @@
+Ram Plot Analysis
+JobID,RamPlot69b2bb2ed98ce,2026-03-12 18:40:08.881743
+Total Residue,150
+Ramachandran plot (Standard) statistics
+Favoured: ,115,(76.667%)
+Allowed: ,23,(15.333%)
+Disallowed: ,12,(8.0%)
+Disallowed Residues
+SN.,PDB ID,Chain,Residue,Residue No,PHI,PSI
+1. ,Thap1lonchuraproteinonly, ,LYS,5,-15.71,118.28
+2. ,Thap1lonchuraproteinonly, ,GLN,9,51.99,137.29
+3. ,Thap1lonchuraproteinonly, ,ASN,12,56.98,113.94
+4. ,Thap1lonchuraproteinonly, ,MET,13,82.78,54.41
+5. ,Thap1lonchuraproteinonly, ,LEU,16,157.66,110.86
+6. ,Thap1lonchuraproteinonly, ,LEU,17,102.26,102.88
+7. ,Thap1lonchuraproteinonly, ,LYS,18,63.9,99.61
+8. ,Thap1lonchuraproteinonly, ,LEU,21,59.12,92.32
+9. ,Thap1lonchuraproteinonly, ,HIS,41,-61.1,89.96
+10. ,Thap1lonchuraproteinonly, ,ALA,53,-24.41,112.01
+11. ,Thap1lonchuraproteinonly, ,ARG,57,-2.11,99.61
+12. ,Thap1lonchuraproteinonly, ,ASN,139,18.67,71.25
+Ramachandran plot (six categories) statistics
+Favoured: ,114,(76.0%)
+Allowed: ,21,(14.0%)
+Disallowed: ,15,(10.0%)
+Disallowed Residues
+SN.,PDB ID,Chain,Residue,Residue No,PHI,PSI
+1. ,Thap1lonchuraproteinonly, ,LYS,5,-15.71,118.28
+2. ,Thap1lonchuraproteinonly, ,PRO,8,-131.05,177.48
+3. ,Thap1lonchuraproteinonly, ,GLN,9,51.99,137.29
+4. ,Thap1lonchuraproteinonly, ,ASN,12,56.98,113.94
+5. ,Thap1lonchuraproteinonly, ,MET,13,82.78,54.41
+6. ,Thap1lonchuraproteinonly, ,LEU,16,157.66,110.86
+7. ,Thap1lonchuraproteinonly, ,LEU,17,102.26,102.88
+8. ,Thap1lonchuraproteinonly, ,LYS,18,63.9,99.61
+9. ,Thap1lonchuraproteinonly, ,LEU,21,59.12,92.32
+10. ,Thap1lonchuraproteinonly, ,ILE,33,-64.03,84.8
+11. ,Thap1lonchuraproteinonly, ,HIS,41,-61.1,89.96
+12. ,Thap1lonchuraproteinonly, ,ALA,53,-24.41,112.01
+13. ,Thap1lonchuraproteinonly, ,ARG,57,-2.11,99.61
+14. ,Thap1lonchuraproteinonly, ,PHE,66,75.71,138.26
+15. ,Thap1lonchuraproteinonly, ,ASN,139,18.67,71.25
+Ramachandran plot (Seven categories) statistics
+Favoured: ,115,(76.0%)
+Allowed: ,19,(14.0%)
+Disallowed: ,16,(10.0%)
+Disallowed Residues
+SN.,PDB ID,Chain,Residue,Residue No,PHI,PSI
+1. ,Thap1lonchuraproteinonly, ,LYS,5,-15.71,118.28
+2. ,Thap1lonchuraproteinonly, ,PRO,8,-131.05,177.48
+3. ,Thap1lonchuraproteinonly, ,GLN,9,51.99,137.29
+4. ,Thap1lonchuraproteinonly, ,ASN,10,75.33,146.32
+5. ,Thap1lonchuraproteinonly, ,ASN,12,56.98,113.94
+6. ,Thap1lonchuraproteinonly, ,MET,13,82.78,54.41
+7. ,Thap1lonchuraproteinonly, ,LEU,16,157.66,110.86
+8. ,Thap1lonchuraproteinonly, ,LEU,17,102.26,102.88
+9. ,Thap1lonchuraproteinonly, ,LYS,18,63.9,99.61
+10. ,Thap1lonchuraproteinonly, ,LEU,21,59.12,92.32
+11. ,Thap1lonchuraproteinonly, ,ILE,33,-64.03,84.8
+12. ,Thap1lonchuraproteinonly, ,HIS,41,-61.1,89.96
+13. ,Thap1lonchuraproteinonly, ,ALA,53,-24.41,112.01
+14. ,Thap1lonchuraproteinonly, ,ARG,57,-2.11,99.61
+15. ,Thap1lonchuraproteinonly, ,PHE,66,75.71,138.26
+16. ,Thap1lonchuraproteinonly, ,ASN,139,18.67,71.25

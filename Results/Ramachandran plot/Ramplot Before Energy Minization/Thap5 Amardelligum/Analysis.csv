@@ -1,0 +1,27 @@
+Ram Plot Analysis
+JobID,RamPlot69afc33428eb2,2026-03-10 12:37:33.283114
+Total Residue,44
+Ramachandran plot (Standard) statistics
+Favoured: ,36,(81.818%)
+Allowed: ,6,(13.636%)
+Disallowed: ,2,(4.545%)
+Disallowed Residues
+SN.,PDB ID,Chain,Residue,Residue No,PHI,PSI
+1. ,THAP5Armadillidium09036be6erelaxedrank001alphafold2ptmmodel5seed000,A,LYS,4,-52.7,87.22
+2. ,THAP5Armadillidium09036be6erelaxedrank001alphafold2ptmmodel5seed000,A,TRP,6,-28.37,106.15
+Ramachandran plot (six categories) statistics
+Favoured: ,36,(81.818%)
+Allowed: ,6,(13.636%)
+Disallowed: ,2,(4.545%)
+Disallowed Residues
+SN.,PDB ID,Chain,Residue,Residue No,PHI,PSI
+1. ,THAP5Armadillidium09036be6erelaxedrank001alphafold2ptmmodel5seed000,A,LYS,4,-52.7,87.22
+2. ,THAP5Armadillidium09036be6erelaxedrank001alphafold2ptmmodel5seed000,A,TRP,6,-28.37,106.15
+Ramachandran plot (Seven categories) statistics
+Favoured: ,36,(81.818%)
+Allowed: ,6,(13.636%)
+Disallowed: ,2,(4.545%)
+Disallowed Residues
+SN.,PDB ID,Chain,Residue,Residue No,PHI,PSI
+1. ,THAP5Armadillidium09036be6erelaxedrank001alphafold2ptmmodel5seed000,A,LYS,4,-52.7,87.22
+2. ,THAP5Armadillidium09036be6erelaxedrank001alphafold2ptmmodel5seed000,A,TRP,6,-28.37,106.15

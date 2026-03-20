@@ -1,0 +1,17 @@
+Welcome to Ram Plot
+===================
+log
+Job Id:RamPlot69b2bb2ed98ce
+User Inputs 
+Input Option: optionFile
+Plot Resolutions: 600
+Plot File Type: svg
+File Upload Successfully Thap1lonchuraproteinonly.pdb
+ python3 Script Start running for Torsion Angle Calculation
+InSIde TorsionAngleCalculation 
+ RamPlot69b2bb2ed98ce
+[MapType2DStd,MapType3DStd,MapType2DAll]Thap1lonchuraproteinonly.pdb
+Calculate Torsion angles for Chain ID : 
+Error : Unable to calculate  torsion angles Thap1lonchuraproteinonly.pdb Chain  Residue 1 MET PHI:None PSI:121.78871451781706 Omega:None
+Error : Unable to calculate  torsion angles Thap1lonchuraproteinonly.pdb Chain  Residue 152 PHE PHI:-144.73649952163913 PSI:None Omega:-179.99062203272226
+Torsion Angles calculation complited for Thap1lonchuraproteinonly.pdb
