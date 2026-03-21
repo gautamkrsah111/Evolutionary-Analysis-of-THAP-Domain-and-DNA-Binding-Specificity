@@ -68,9 +68,12 @@ See [`docs/methodology.md`](docs/methodology.md) for full details.
 ├── Scripts/
 │   ├── Energy_Minization_Code/  # GROMACS parameter files and codes
 │   └── Pymol_Visualization_scripts/
-└── figures/
-    ├── Docking_Visualization/   # PNGs of docking poses
-    └── Inkscape_Edited_SVG/     # Final publication-ready figures
+├── figures/
+│   ├── Docking_Visualization/   # PNGs of docking poses
+│   └── Inkscape_Edited_SVG/     # Final publication-ready figures
+└── Supplementary/
+    ├── Protein&Domain Lenght.xls/   # It contains the scallter plots of all the proteins
+    └   ...
 ```
 
 
